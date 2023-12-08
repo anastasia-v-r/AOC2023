@@ -15,12 +15,7 @@ namespace AOC2023
         }
         public override void Run()
         {
-            List<string> codes = new List<string> {
-                "1abc2",
-                "pqr3stu8vwx",
-                "a1b2c3d4e5f",
-                "treb7uchet"
-            };
+            List<string> codes = new List<string>(File.ReadAllLines(@"assets/Day1.txt"));
 
             int total = 0;
             foreach (string code in codes)
