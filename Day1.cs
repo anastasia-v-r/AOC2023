@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace AOC2023
 {
-    internal class Day1
+    internal class Day1 : BaseDay
     {
-        static void Run()
+        public Day1()
+        {
+            name = "Day 1 : ";
+            desc = "";
+        }
+        public override void Run()
         {
             Console.WriteLine("Day 1 project!");
         }
